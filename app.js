@@ -14,10 +14,6 @@ var form = document.getElementById("myForm"),
     modalTitle = document.querySelector("#userForm .modal-title"),
     newUserBtn = document.querySelector(".newUser")
 
-
-    console.log(document)
-
-
 let getData = localStorage.getItem('userProfile') ? JSON.parse(localStorage.getItem('userProfile')) : []
 
 let isEdit = false, editId
